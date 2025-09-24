@@ -1,0 +1,16 @@
+C:/Users/nikhi/OneDrive/Desktop/logpulse/build/CMakeFiles/logpulse_core.dir
+C:/Users/nikhi/OneDrive/Desktop/logpulse/build/CMakeFiles/logpulse.dir
+C:/Users/nikhi/OneDrive/Desktop/logpulse/build/CMakeFiles/test.dir
+C:/Users/nikhi/OneDrive/Desktop/logpulse/build/CMakeFiles/edit_cache.dir
+C:/Users/nikhi/OneDrive/Desktop/logpulse/build/CMakeFiles/rebuild_cache.dir
+C:/Users/nikhi/OneDrive/Desktop/logpulse/build/tests/CMakeFiles/test_globals.dir
+C:/Users/nikhi/OneDrive/Desktop/logpulse/build/tests/CMakeFiles/test_parser.dir
+C:/Users/nikhi/OneDrive/Desktop/logpulse/build/tests/CMakeFiles/test_aggregator.dir
+C:/Users/nikhi/OneDrive/Desktop/logpulse/build/tests/CMakeFiles/test_spacesaving.dir
+C:/Users/nikhi/OneDrive/Desktop/logpulse/build/tests/CMakeFiles/test_bounded_queue.dir
+C:/Users/nikhi/OneDrive/Desktop/logpulse/build/tests/CMakeFiles/test_worker_pool.dir
+C:/Users/nikhi/OneDrive/Desktop/logpulse/build/tests/CMakeFiles/test_checkpoint.dir
+C:/Users/nikhi/OneDrive/Desktop/logpulse/build/tests/CMakeFiles/test_sliding_window.dir
+C:/Users/nikhi/OneDrive/Desktop/logpulse/build/tests/CMakeFiles/test.dir
+C:/Users/nikhi/OneDrive/Desktop/logpulse/build/tests/CMakeFiles/edit_cache.dir
+C:/Users/nikhi/OneDrive/Desktop/logpulse/build/tests/CMakeFiles/rebuild_cache.dir

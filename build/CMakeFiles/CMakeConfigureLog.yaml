@@ -1,0 +1,1809 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompiler.cmake:73 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:69 (_cmake_find_compiler)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER"
+    description: "CXX compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "cl"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35503/bin/Hostx64/x64/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/VC/vcpackages/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/MSBuild/Current/Bin/Roslyn/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Team Tools/DiagnosticsHub/Collector/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x64/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/Tools/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/"
+      - "C:/Program Files/MongoDB/mongosh-1.10.1-win32-x64/bin/"
+      - "E:/New folder (3)/restfulapi/src/"
+      - "C:/Program Files/HP/HP One Agent/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/nikhi/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/nikhi/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/nikhi/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/nikhi/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/nikhi/AppData/Roaming/npm/"
+      - "C:/Program Files/MongoDB/Server/6.0/bin/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/vcpkg/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35503/bin/Hostx64/x64/cl.com"
+    found: "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35503/bin/Hostx64/x64/cl.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.50.35503\\bin\\HostX64\\x64"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\VC\\VCPackages"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\MSBuild\\Current\\bin\\Roslyn"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Team Tools\\DiagnosticsHub\\Collector"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x64"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\Tools\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\windows\\system32"
+        - "C:\\windows"
+        - "C:\\windows\\System32\\Wbem"
+        - "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Cloudflare\\Cloudflare WARP\\"
+        - "C:\\Program Files\\MongoDB\\mongosh-1.10.1-win32-x64\\bin"
+        - "E:\\New folder (3)\\restfulapi\\src"
+        - "C:\\Program Files\\HP\\HP One Agent"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\nikhi\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\nikhi\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\nikhi\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\nikhi\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\nikhi\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\MongoDB\\Server\\6.0\\bin"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\vcpkg"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.50.35503\\bin\\HostX64\\x64"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\VC\\VCPackages"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\MSBuild\\Current\\bin\\Roslyn"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Team Tools\\DiagnosticsHub\\Collector"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x64"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\Tools\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\windows\\system32"
+        - "C:\\windows"
+        - "C:\\windows\\System32\\Wbem"
+        - "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Cloudflare\\Cloudflare WARP\\"
+        - "C:\\Program Files\\MongoDB\\mongosh-1.10.1-win32-x64\\bin"
+        - "E:\\New folder (3)\\restfulapi\\src"
+        - "C:\\Program Files\\HP\\HP One Agent"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\nikhi\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\nikhi\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\nikhi\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\nikhi\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\nikhi\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\MongoDB\\Server\\6.0\\bin"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\vcpkg"
+      ENV{INCLUDE}:
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.50.35503\\include"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.50.35503\\ATLMFC\\include"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Auxiliary\\VS\\include"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.26100.0\\ucrt"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.26100.0\\\\um"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.26100.0\\\\shared"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.26100.0\\\\winrt"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.26100.0\\\\cppwinrt"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35503/bin/Hostx64/x64/cl.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35503 for x64
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      CMakeCXXCompilerId.cpp
+      Microsoft (R) Incremental Linker Version 14.50.35503.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      /out:CMakeCXXCompilerId.exe 
+      CMakeCXXCompilerId.obj 
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/nikhi/OneDrive/Desktop/logpulse/build/CMakeFiles/4.1.1/CompilerIdCXX/CMakeCXXCompilerId.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:1341 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Detecting CXX compiler /showIncludes prefix:
+        main.c
+        Note: including file: C:\\Users\\nikhi\\OneDrive\\Desktop\\logpulse\\build\\CMakeFiles\\ShowIncludes\\foo.h
+        
+      Found prefix "Note: including file: "
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35503/bin/Hostx64/x64/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/VC/vcpackages/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/MSBuild/Current/Bin/Roslyn/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Team Tools/DiagnosticsHub/Collector/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x64/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/Tools/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/"
+      - "C:/Program Files/MongoDB/mongosh-1.10.1-win32-x64/bin/"
+      - "E:/New folder (3)/restfulapi/src/"
+      - "C:/Program Files/HP/HP One Agent/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/nikhi/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/nikhi/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/nikhi/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/nikhi/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/nikhi/AppData/Roaming/npm/"
+      - "C:/Program Files/MongoDB/Server/6.0/bin/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/vcpkg/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35503/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35503/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.50.35503\\bin\\HostX64\\x64"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\VC\\VCPackages"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\MSBuild\\Current\\bin\\Roslyn"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Team Tools\\DiagnosticsHub\\Collector"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x64"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\Tools\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\windows\\system32"
+        - "C:\\windows"
+        - "C:\\windows\\System32\\Wbem"
+        - "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Cloudflare\\Cloudflare WARP\\"
+        - "C:\\Program Files\\MongoDB\\mongosh-1.10.1-win32-x64\\bin"
+        - "E:\\New folder (3)\\restfulapi\\src"
+        - "C:\\Program Files\\HP\\HP One Agent"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\nikhi\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\nikhi\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\nikhi\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\nikhi\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\nikhi\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\MongoDB\\Server\\6.0\\bin"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\vcpkg"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35503/bin/Hostx64/x64/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/VC/vcpackages/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/MSBuild/Current/Bin/Roslyn/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Team Tools/DiagnosticsHub/Collector/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x64/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/Tools/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/"
+      - "C:/Program Files/MongoDB/mongosh-1.10.1-win32-x64/bin/"
+      - "E:/New folder (3)/restfulapi/src/"
+      - "C:/Program Files/HP/HP One Agent/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/nikhi/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/nikhi/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/nikhi/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/nikhi/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/nikhi/AppData/Roaming/npm/"
+      - "C:/Program Files/MongoDB/Server/6.0/bin/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/vcpkg/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35503/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35503/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35503/bin/Hostx64/x64/lld-link"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/VC/vcpackages/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/VC/vcpackages/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/VC/vcpackages/lld-link"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/TestWindow/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/TestWindow/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/TestWindow/lld-link"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/lld-link"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/MSBuild/Current/Bin/Roslyn/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/MSBuild/Current/Bin/Roslyn/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/MSBuild/Current/Bin/Roslyn/lld-link"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Team Tools/DiagnosticsHub/Collector/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Team Tools/DiagnosticsHub/Collector/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Team Tools/DiagnosticsHub/Collector/lld-link"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x64/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x64/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x64/lld-link"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/MSBuild/Current/Bin/amd64/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/MSBuild/Current/Bin/amd64/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/MSBuild/Current/Bin/amd64/lld-link"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/lld-link.com"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/lld-link.exe"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/lld-link"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/lld-link"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/Tools/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/Tools/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/Tools/lld-link"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lld-link.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lld-link.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/lld-link.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/lld-link.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/lld-link"
+      - "C:/Program Files/nodejs/lld-link.com"
+      - "C:/Program Files/nodejs/lld-link.exe"
+      - "C:/Program Files/nodejs/lld-link"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/lld-link.com"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/lld-link.exe"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/lld-link"
+      - "C:/Program Files/MongoDB/mongosh-1.10.1-win32-x64/bin/lld-link.com"
+      - "C:/Program Files/MongoDB/mongosh-1.10.1-win32-x64/bin/lld-link.exe"
+      - "C:/Program Files/MongoDB/mongosh-1.10.1-win32-x64/bin/lld-link"
+      - "E:/New folder (3)/restfulapi/src/lld-link.com"
+      - "E:/New folder (3)/restfulapi/src/lld-link.exe"
+      - "E:/New folder (3)/restfulapi/src/lld-link"
+      - "C:/Program Files/HP/HP One Agent/lld-link.com"
+      - "C:/Program Files/HP/HP One Agent/lld-link.exe"
+      - "C:/Program Files/HP/HP One Agent/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/Program Files/CMake/bin/lld-link.com"
+      - "C:/Program Files/CMake/bin/lld-link.exe"
+      - "C:/Program Files/CMake/bin/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "C:/Users/nikhi/AppData/Local/Programs/Python/Python311/Scripts/lld-link.com"
+      - "C:/Users/nikhi/AppData/Local/Programs/Python/Python311/Scripts/lld-link.exe"
+      - "C:/Users/nikhi/AppData/Local/Programs/Python/Python311/Scripts/lld-link"
+      - "C:/Users/nikhi/AppData/Local/Programs/Python/Python311/lld-link.com"
+      - "C:/Users/nikhi/AppData/Local/Programs/Python/Python311/lld-link.exe"
+      - "C:/Users/nikhi/AppData/Local/Programs/Python/Python311/lld-link"
+      - "C:/Users/nikhi/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/nikhi/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/nikhi/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Users/nikhi/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
+      - "C:/Users/nikhi/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
+      - "C:/Users/nikhi/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
+      - "C:/Users/nikhi/AppData/Roaming/npm/lld-link.com"
+      - "C:/Users/nikhi/AppData/Roaming/npm/lld-link.exe"
+      - "C:/Users/nikhi/AppData/Roaming/npm/lld-link"
+      - "C:/Program Files/MongoDB/Server/6.0/bin/lld-link.com"
+      - "C:/Program Files/MongoDB/Server/6.0/bin/lld-link.exe"
+      - "C:/Program Files/MongoDB/Server/6.0/bin/lld-link"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/lld-link"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/lld-link"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/lld-link"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/vcpkg/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/vcpkg/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/vcpkg/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.50.35503\\bin\\HostX64\\x64"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\VC\\VCPackages"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\MSBuild\\Current\\bin\\Roslyn"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Team Tools\\DiagnosticsHub\\Collector"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x64"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\Tools\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\windows\\system32"
+        - "C:\\windows"
+        - "C:\\windows\\System32\\Wbem"
+        - "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Cloudflare\\Cloudflare WARP\\"
+        - "C:\\Program Files\\MongoDB\\mongosh-1.10.1-win32-x64\\bin"
+        - "E:\\New folder (3)\\restfulapi\\src"
+        - "C:\\Program Files\\HP\\HP One Agent"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\nikhi\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\nikhi\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\nikhi\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\nikhi\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\nikhi\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\MongoDB\\Server\\6.0\\bin"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\vcpkg"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35503/bin/Hostx64/x64/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/VC/vcpackages/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/MSBuild/Current/Bin/Roslyn/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Team Tools/DiagnosticsHub/Collector/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x64/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/Tools/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/"
+      - "C:/Program Files/MongoDB/mongosh-1.10.1-win32-x64/bin/"
+      - "E:/New folder (3)/restfulapi/src/"
+      - "C:/Program Files/HP/HP One Agent/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/nikhi/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/nikhi/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/nikhi/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/nikhi/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/nikhi/AppData/Roaming/npm/"
+      - "C:/Program Files/MongoDB/Server/6.0/bin/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/vcpkg/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35503/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35503/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.50.35503\\bin\\HostX64\\x64"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\VC\\VCPackages"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\MSBuild\\Current\\bin\\Roslyn"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Team Tools\\DiagnosticsHub\\Collector"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x64"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\Tools\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\windows\\system32"
+        - "C:\\windows"
+        - "C:\\windows\\System32\\Wbem"
+        - "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Cloudflare\\Cloudflare WARP\\"
+        - "C:\\Program Files\\MongoDB\\mongosh-1.10.1-win32-x64\\bin"
+        - "E:\\New folder (3)\\restfulapi\\src"
+        - "C:\\Program Files\\HP\\HP One Agent"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\nikhi\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\nikhi\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\nikhi\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\nikhi\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\nikhi\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\MongoDB\\Server\\6.0\\bin"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\vcpkg"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_MT"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "mt"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35503/bin/Hostx64/x64/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/VC/vcpackages/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/MSBuild/Current/Bin/Roslyn/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Team Tools/DiagnosticsHub/Collector/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x64/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/Tools/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/"
+      - "C:/Program Files/MongoDB/mongosh-1.10.1-win32-x64/bin/"
+      - "E:/New folder (3)/restfulapi/src/"
+      - "C:/Program Files/HP/HP One Agent/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/nikhi/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/nikhi/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/nikhi/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/nikhi/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/nikhi/AppData/Roaming/npm/"
+      - "C:/Program Files/MongoDB/Server/6.0/bin/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/vcpkg/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35503/bin/Hostx64/x64/mt.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35503/bin/Hostx64/x64/mt.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35503/bin/Hostx64/x64/mt"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/VC/vcpackages/mt.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/VC/vcpackages/mt.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/VC/vcpackages/mt"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/TestWindow/mt.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/TestWindow/mt.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/TestWindow/mt"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/mt.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/mt.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/mt"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/MSBuild/Current/Bin/Roslyn/mt.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/MSBuild/Current/Bin/Roslyn/mt.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/MSBuild/Current/Bin/Roslyn/mt"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Team Tools/DiagnosticsHub/Collector/mt.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Team Tools/DiagnosticsHub/Collector/mt.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Team Tools/DiagnosticsHub/Collector/mt"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/mt.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/mt.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/mt"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/mt.com"
+    found: "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/mt.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.50.35503\\bin\\HostX64\\x64"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\VC\\VCPackages"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\MSBuild\\Current\\bin\\Roslyn"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Team Tools\\DiagnosticsHub\\Collector"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x64"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\Tools\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\windows\\system32"
+        - "C:\\windows"
+        - "C:\\windows\\System32\\Wbem"
+        - "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Cloudflare\\Cloudflare WARP\\"
+        - "C:\\Program Files\\MongoDB\\mongosh-1.10.1-win32-x64\\bin"
+        - "E:\\New folder (3)\\restfulapi\\src"
+        - "C:\\Program Files\\HP\\HP One Agent"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\nikhi\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\nikhi\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\nikhi\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\nikhi\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\nikhi\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\MongoDB\\Server\\6.0\\bin"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\vcpkg"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lib"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35503/bin/Hostx64/x64/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/VC/vcpackages/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/MSBuild/Current/Bin/Roslyn/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Team Tools/DiagnosticsHub/Collector/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x64/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/Tools/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/"
+      - "C:/Program Files/MongoDB/mongosh-1.10.1-win32-x64/bin/"
+      - "E:/New folder (3)/restfulapi/src/"
+      - "C:/Program Files/HP/HP One Agent/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/nikhi/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/nikhi/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/nikhi/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/nikhi/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/nikhi/AppData/Roaming/npm/"
+      - "C:/Program Files/MongoDB/Server/6.0/bin/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/vcpkg/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35503/bin/Hostx64/x64/lib.com"
+    found: "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35503/bin/Hostx64/x64/lib.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.50.35503\\bin\\HostX64\\x64"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\VC\\VCPackages"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\MSBuild\\Current\\bin\\Roslyn"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Team Tools\\DiagnosticsHub\\Collector"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x64"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\Tools\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\windows\\system32"
+        - "C:\\windows"
+        - "C:\\windows\\System32\\Wbem"
+        - "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Cloudflare\\Cloudflare WARP\\"
+        - "C:\\Program Files\\MongoDB\\mongosh-1.10.1-win32-x64\\bin"
+        - "E:\\New folder (3)\\restfulapi\\src"
+        - "C:\\Program Files\\HP\\HP One Agent"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\nikhi\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\nikhi\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\nikhi\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\nikhi\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\nikhi\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\MongoDB\\Server\\6.0\\bin"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\vcpkg"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Platform/Windows-MSVC.cmake:574 (enable_language)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Platform/Windows-MSVC.cmake:547 (__windows_compiler_msvc_enable_rc)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Platform/Windows-MSVC-CXX.cmake:6 (__windows_compiler_msvc)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeCXXInformation.cmake:48 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "rc"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35503/bin/Hostx64/x64/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/VC/vcpackages/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/MSBuild/Current/Bin/Roslyn/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Team Tools/DiagnosticsHub/Collector/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x64/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/Tools/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/"
+      - "C:/Program Files/MongoDB/mongosh-1.10.1-win32-x64/bin/"
+      - "E:/New folder (3)/restfulapi/src/"
+      - "C:/Program Files/HP/HP One Agent/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/nikhi/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/nikhi/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/nikhi/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/nikhi/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/nikhi/AppData/Roaming/npm/"
+      - "C:/Program Files/MongoDB/Server/6.0/bin/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/vcpkg/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/logpulse/bin/"
+      - "C:/Program Files (x86)/logpulse/sbin/"
+      - "C:/Program Files (x86)/logpulse/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35503/bin/Hostx64/x64/rc.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35503/bin/Hostx64/x64/rc.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35503/bin/Hostx64/x64/rc"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/VC/vcpackages/rc.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/VC/vcpackages/rc.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/VC/vcpackages/rc"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/TestWindow/rc.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/TestWindow/rc.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/TestWindow/rc"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/rc.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/rc.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/rc"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/MSBuild/Current/Bin/Roslyn/rc.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/MSBuild/Current/Bin/Roslyn/rc.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/MSBuild/Current/Bin/Roslyn/rc"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Team Tools/DiagnosticsHub/Collector/rc.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Team Tools/DiagnosticsHub/Collector/rc.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Team Tools/DiagnosticsHub/Collector/rc"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/rc.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/rc.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/rc"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/rc.com"
+    found: "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/rc.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.50.35503\\bin\\HostX64\\x64"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\VC\\VCPackages"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\MSBuild\\Current\\bin\\Roslyn"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Team Tools\\DiagnosticsHub\\Collector"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x64"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\Tools\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\windows\\system32"
+        - "C:\\windows"
+        - "C:\\windows\\System32\\Wbem"
+        - "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Cloudflare\\Cloudflare WARP\\"
+        - "C:\\Program Files\\MongoDB\\mongosh-1.10.1-win32-x64\\bin"
+        - "E:\\New folder (3)\\restfulapi\\src"
+        - "C:\\Program Files\\HP\\HP One Agent"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\nikhi\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\nikhi\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\nikhi\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\nikhi\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\nikhi\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\MongoDB\\Server\\6.0\\bin"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\vcpkg"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/logpulse"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/logpulse"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/nikhi/OneDrive/Desktop/logpulse/build/CMakeFiles/CMakeScratch/TryCompile-ntqieb"
+      binary: "C:/Users/nikhi/OneDrive/Desktop/logpulse/build/CMakeFiles/CMakeScratch/TryCompile-ntqieb"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/nikhi/OneDrive/Desktop/logpulse/build/CMakeFiles/CMakeScratch/TryCompile-ntqieb'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_16edd\\fast
+        	"C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.50.35503\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_16edd.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_16edd.dir\\build
+        Building CXX object CMakeFiles/cmTC_16edd.dir/CMakeCXXCompilerABI.cpp.obj
+        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_16edd.dir\\CMakeCXXCompilerABI.cpp.obj.d --working-dir=C:\\Users\\nikhi\\OneDrive\\Desktop\\logpulse\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ntqieb --filter-prefix="Note: including file: " -- C:\\PROGRA~1\\MICROS~4\\18\\Insiders\\VC\\Tools\\MSVC\\1450~1.355\\bin\\Hostx64\\x64\\cl.exe @C:\\Users\\nikhi\\AppData\\Local\\Temp\\nm556F.tmp
+        CMakeCXXCompilerABI.cpp
+        Linking CXX executable cmTC_16edd.exe
+        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1950 --intdir=CMakeFiles\\cmTC_16edd.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests -- C:\\PROGRA~1\\MICROS~4\\18\\Insiders\\VC\\Tools\\MSVC\\1450~1.355\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_16edd.dir\\objects1.rsp @C:\\Users\\nikhi\\AppData\\Local\\Temp\\nm55CE.tmp
+        Visual Studio Incremental Link with embedded manifests
+        Create CMakeFiles\\cmTC_16edd.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_16edd.dir/embed.manifest
+        RC Pass 1:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_16edd.dir/manifest.res CMakeFiles\\cmTC_16edd.dir/manifest.rc
+        LINK Pass 1:
+        C:\\PROGRA~1\\MICROS~4\\18\\Insiders\\VC\\Tools\\MSVC\\1450~1.355\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_16edd.dir\\objects1.rsp /out:cmTC_16edd.exe /implib:cmTC_16edd.lib /pdb:C:\\Users\\nikhi\\OneDrive\\Desktop\\logpulse\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ntqieb\\cmTC_16edd.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_16edd.dir/intermediate.manifest CMakeFiles\\cmTC_16edd.dir/manifest.res
+        MT:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe /nologo /manifest CMakeFiles\\cmTC_16edd.dir/intermediate.manifest /out:CMakeFiles\\cmTC_16edd.dir/embed.manifest /notify_update
+        RC Pass 2:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_16edd.dir/manifest.res CMakeFiles\\cmTC_16edd.dir/manifest.rc
+        FINAL LINK:
+        C:\\PROGRA~1\\MICROS~4\\18\\Insiders\\VC\\Tools\\MSVC\\1450~1.355\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_16edd.dir\\objects1.rsp /out:cmTC_16edd.exe /implib:cmTC_16edd.lib /pdb:C:\\Users\\nikhi\\OneDrive\\Desktop\\logpulse\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ntqieb\\cmTC_16edd.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_16edd.dir/intermediate.manifest CMakeFiles\\cmTC_16edd.dir/manifest.res
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/PROGRA~1/MICROS~4/18/Insiders/VC/Tools/MSVC/1450~1.355/bin/Hostx64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/PROGRA~1/MICROS~4/18/Insiders/VC/Tools/MSVC/1450~1.355/bin/Hostx64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.50.35503.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CheckCXXSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindThreads.cmake:99 (check_cxx_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "CMakeLists.txt:16 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Users/nikhi/OneDrive/Desktop/logpulse/build/CMakeFiles/CMakeScratch/TryCompile-cqwlrm"
+      binary: "C:/Users/nikhi/OneDrive/Desktop/logpulse/build/CMakeFiles/CMakeScratch/TryCompile-cqwlrm"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/nikhi/OneDrive/Desktop/logpulse/build/CMakeFiles/CMakeScratch/TryCompile-cqwlrm'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_7b60d\\fast
+        	"C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.50.35503\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_7b60d.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_7b60d.dir\\build
+        Building CXX object CMakeFiles/cmTC_7b60d.dir/src.cxx.obj
+        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_7b60d.dir\\src.cxx.obj.d --working-dir=C:\\Users\\nikhi\\OneDrive\\Desktop\\logpulse\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cqwlrm --filter-prefix="Note: including file: " -- C:\\PROGRA~1\\MICROS~4\\18\\Insiders\\VC\\Tools\\MSVC\\1450~1.355\\bin\\Hostx64\\x64\\cl.exe @C:\\Users\\nikhi\\AppData\\Local\\Temp\\nm57A2.tmp
+        src.cxx
+        C:\\Users\\nikhi\\OneDrive\\Desktop\\logpulse\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cqwlrm\\src.cxx(1): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory
+        NMAKE : fatal error U1077: '"C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_7b60d.dir\\src.cxx.obj.d --working-dir=C:\\Users\\nikhi\\OneDrive\\Desktop\\logpulse\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cqwlrm --filter-prefix="Note: including file: " -- C:\\PROGRA~1\\MICROS~4\\18\\Insiders\\VC\\Tools\\MSVC\\1450~1.355\\bin\\Hostx64\\x64\\cl.exe @C:\\Users\\nikhi\\AppData\\Local\\Temp\\nm57A2.tmp' : return code '0x2'
+        Stop.
+        NMAKE : fatal error U1077: '"C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.50.35503\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_7b60d.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_7b60d.dir\\build' : return code '0x2'
+        Stop.
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CheckLibraryExists.cmake:154 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindThreads.cmake:112 (check_library_exists)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "CMakeLists.txt:16 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "C:/Users/nikhi/OneDrive/Desktop/logpulse/build/CMakeFiles/CMakeScratch/TryCompile-ldpary"
+      binary: "C:/Users/nikhi/OneDrive/Desktop/logpulse/build/CMakeFiles/CMakeScratch/TryCompile-ldpary"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/nikhi/OneDrive/Desktop/logpulse/build/CMakeFiles/CMakeScratch/TryCompile-ldpary'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_68077\\fast
+        	"C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.50.35503\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_68077.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_68077.dir\\build
+        Building CXX object CMakeFiles/cmTC_68077.dir/CheckFunctionExists.cxx.obj
+        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_68077.dir\\CheckFunctionExists.cxx.obj.d --working-dir=C:\\Users\\nikhi\\OneDrive\\Desktop\\logpulse\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ldpary --filter-prefix="Note: including file: " -- C:\\PROGRA~1\\MICROS~4\\18\\Insiders\\VC\\Tools\\MSVC\\1450~1.355\\bin\\Hostx64\\x64\\cl.exe @C:\\Users\\nikhi\\AppData\\Local\\Temp\\nm5919.tmp
+        CheckFunctionExists.cxx
+        Linking CXX executable cmTC_68077.exe
+        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1950 --intdir=CMakeFiles\\cmTC_68077.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests -- C:\\PROGRA~1\\MICROS~4\\18\\Insiders\\VC\\Tools\\MSVC\\1450~1.355\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_68077.dir\\objects1.rsp @C:\\Users\\nikhi\\AppData\\Local\\Temp\\nm5978.tmp
+        Visual Studio Incremental Link with embedded manifests
+        Create CMakeFiles\\cmTC_68077.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_68077.dir/embed.manifest
+        RC Pass 1:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_68077.dir/manifest.res CMakeFiles\\cmTC_68077.dir/manifest.rc
+        LINK Pass 1:
+        C:\\PROGRA~1\\MICROS~4\\18\\Insiders\\VC\\Tools\\MSVC\\1450~1.355\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_68077.dir\\objects1.rsp /out:cmTC_68077.exe /implib:cmTC_68077.lib /pdb:C:\\Users\\nikhi\\OneDrive\\Desktop\\logpulse\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ldpary\\cmTC_68077.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_68077.dir/intermediate.manifest CMakeFiles\\cmTC_68077.dir/manifest.res
+        LINK Pass 1: command "C:\\PROGRA~1\\MICROS~4\\18\\Insiders\\VC\\Tools\\MSVC\\1450~1.355\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_68077.dir\\objects1.rsp /out:cmTC_68077.exe /implib:cmTC_68077.lib /pdb:C:\\Users\\nikhi\\OneDrive\\Desktop\\logpulse\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ldpary\\cmTC_68077.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_68077.dir/intermediate.manifest CMakeFiles\\cmTC_68077.dir/manifest.res" failed (exit code 1104) with the following output:
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib'\x0d
+        NMAKE : fatal error U1077: '"C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1950 --intdir=CMakeFiles\\cmTC_68077.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests -- C:\\PROGRA~1\\MICROS~4\\18\\Insiders\\VC\\Tools\\MSVC\\1450~1.355\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_68077.dir\\objects1.rsp @C:\\Users\\nikhi\\AppData\\Local\\Temp\\nm5978.tmp' : return code '0xffffffff'
+        Stop.
+        NMAKE : fatal error U1077: '"C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.50.35503\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_68077.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_68077.dir\\build' : return code '0x2'
+        Stop.
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CheckLibraryExists.cmake:154 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindThreads.cmake:112 (check_library_exists)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "CMakeLists.txt:16 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "C:/Users/nikhi/OneDrive/Desktop/logpulse/build/CMakeFiles/CMakeScratch/TryCompile-qdpbwi"
+      binary: "C:/Users/nikhi/OneDrive/Desktop/logpulse/build/CMakeFiles/CMakeScratch/TryCompile-qdpbwi"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/nikhi/OneDrive/Desktop/logpulse/build/CMakeFiles/CMakeScratch/TryCompile-qdpbwi'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_85bd3\\fast
+        	"C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.50.35503\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_85bd3.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_85bd3.dir\\build
+        Building CXX object CMakeFiles/cmTC_85bd3.dir/CheckFunctionExists.cxx.obj
+        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_85bd3.dir\\CheckFunctionExists.cxx.obj.d --working-dir=C:\\Users\\nikhi\\OneDrive\\Desktop\\logpulse\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qdpbwi --filter-prefix="Note: including file: " -- C:\\PROGRA~1\\MICROS~4\\18\\Insiders\\VC\\Tools\\MSVC\\1450~1.355\\bin\\Hostx64\\x64\\cl.exe @C:\\Users\\nikhi\\AppData\\Local\\Temp\\nm5A51.tmp
+        CheckFunctionExists.cxx
+        Linking CXX executable cmTC_85bd3.exe
+        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1950 --intdir=CMakeFiles\\cmTC_85bd3.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests -- C:\\PROGRA~1\\MICROS~4\\18\\Insiders\\VC\\Tools\\MSVC\\1450~1.355\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_85bd3.dir\\objects1.rsp @C:\\Users\\nikhi\\AppData\\Local\\Temp\\nm5AB0.tmp
+        Visual Studio Incremental Link with embedded manifests
+        Create CMakeFiles\\cmTC_85bd3.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_85bd3.dir/embed.manifest
+        RC Pass 1:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_85bd3.dir/manifest.res CMakeFiles\\cmTC_85bd3.dir/manifest.rc
+        LINK Pass 1:
+        C:\\PROGRA~1\\MICROS~4\\18\\Insiders\\VC\\Tools\\MSVC\\1450~1.355\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_85bd3.dir\\objects1.rsp /out:cmTC_85bd3.exe /implib:cmTC_85bd3.lib /pdb:C:\\Users\\nikhi\\OneDrive\\Desktop\\logpulse\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qdpbwi\\cmTC_85bd3.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_85bd3.dir/intermediate.manifest CMakeFiles\\cmTC_85bd3.dir/manifest.res
+        LINK Pass 1: command "C:\\PROGRA~1\\MICROS~4\\18\\Insiders\\VC\\Tools\\MSVC\\1450~1.355\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_85bd3.dir\\objects1.rsp /out:cmTC_85bd3.exe /implib:cmTC_85bd3.lib /pdb:C:\\Users\\nikhi\\OneDrive\\Desktop\\logpulse\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qdpbwi\\cmTC_85bd3.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_85bd3.dir/intermediate.manifest CMakeFiles\\cmTC_85bd3.dir/manifest.res" failed (exit code 1104) with the following output:
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib'\x0d
+        NMAKE : fatal error U1077: '"C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1950 --intdir=CMakeFiles\\cmTC_85bd3.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests -- C:\\PROGRA~1\\MICROS~4\\18\\Insiders\\VC\\Tools\\MSVC\\1450~1.355\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_85bd3.dir\\objects1.rsp @C:\\Users\\nikhi\\AppData\\Local\\Temp\\nm5AB0.tmp' : return code '0xffffffff'
+        Stop.
+        NMAKE : fatal error U1077: '"C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.50.35503\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_85bd3.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_85bd3.dir\\build' : return code '0x2'
+        Stop.
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompiler.cmake:54 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:64 (_cmake_find_compiler)"
+      - "tests/CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER"
+    description: "C compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "cl"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35503/bin/Hostx64/x64/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35503/bin/Hostx64/x64/cl.com"
+    found: "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35503/bin/Hostx64/x64/cl.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.50.35503\\bin\\HostX64\\x64"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\VC\\VCPackages"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\MSBuild\\Current\\bin\\Roslyn"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Team Tools\\DiagnosticsHub\\Collector"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x64"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\Tools\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\windows\\system32"
+        - "C:\\windows"
+        - "C:\\windows\\System32\\Wbem"
+        - "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Cloudflare\\Cloudflare WARP\\"
+        - "C:\\Program Files\\MongoDB\\mongosh-1.10.1-win32-x64\\bin"
+        - "E:\\New folder (3)\\restfulapi\\src"
+        - "C:\\Program Files\\HP\\HP One Agent"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\nikhi\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\nikhi\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\nikhi\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\nikhi\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\nikhi\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\MongoDB\\Server\\6.0\\bin"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\vcpkg"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/logpulse"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/logpulse"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "tests/CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.50.35503\\bin\\HostX64\\x64"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\VC\\VCPackages"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\MSBuild\\Current\\bin\\Roslyn"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Team Tools\\DiagnosticsHub\\Collector"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x64"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\Tools\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\windows\\system32"
+        - "C:\\windows"
+        - "C:\\windows\\System32\\Wbem"
+        - "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Cloudflare\\Cloudflare WARP\\"
+        - "C:\\Program Files\\MongoDB\\mongosh-1.10.1-win32-x64\\bin"
+        - "E:\\New folder (3)\\restfulapi\\src"
+        - "C:\\Program Files\\HP\\HP One Agent"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\nikhi\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\nikhi\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\nikhi\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\nikhi\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\nikhi\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\MongoDB\\Server\\6.0\\bin"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\vcpkg"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/logpulse"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/logpulse"
+      ENV{INCLUDE}:
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.50.35503\\include"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.50.35503\\ATLMFC\\include"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Auxiliary\\VS\\include"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.26100.0\\ucrt"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.26100.0\\\\um"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.26100.0\\\\shared"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.26100.0\\\\winrt"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.26100.0\\\\cppwinrt"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "tests/CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35503/bin/Hostx64/x64/cl.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35503 for x64
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      CMakeCCompilerId.c
+      Microsoft (R) Incremental Linker Version 14.50.35503.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      /out:CMakeCCompilerId.exe 
+      CMakeCCompilerId.obj 
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/nikhi/OneDrive/Desktop/logpulse/build/CMakeFiles/4.1.1/CompilerIdC/CMakeCCompilerId.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:1341 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "tests/CMakeLists.txt:3 (project)"
+    message: |
+      Detecting C compiler /showIncludes prefix:
+        main.c
+        Note: including file: C:\\Users\\nikhi\\OneDrive\\Desktop\\logpulse\\build\\CMakeFiles\\ShowIncludes\\foo.h
+        
+      Found prefix "Note: including file: "
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "tests/CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35503/bin/Hostx64/x64/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/VC/vcpackages/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/MSBuild/Current/Bin/Roslyn/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Team Tools/DiagnosticsHub/Collector/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x64/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/Tools/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/"
+      - "C:/Program Files/MongoDB/mongosh-1.10.1-win32-x64/bin/"
+      - "E:/New folder (3)/restfulapi/src/"
+      - "C:/Program Files/HP/HP One Agent/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/nikhi/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/nikhi/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/nikhi/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/nikhi/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/nikhi/AppData/Roaming/npm/"
+      - "C:/Program Files/MongoDB/Server/6.0/bin/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/vcpkg/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/logpulse/bin/"
+      - "C:/Program Files (x86)/logpulse/sbin/"
+      - "C:/Program Files (x86)/logpulse/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35503/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35503/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35503/bin/Hostx64/x64/lld-link"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/VC/vcpackages/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/VC/vcpackages/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/VC/vcpackages/lld-link"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/TestWindow/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/TestWindow/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/TestWindow/lld-link"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/lld-link"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/MSBuild/Current/Bin/Roslyn/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/MSBuild/Current/Bin/Roslyn/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/MSBuild/Current/Bin/Roslyn/lld-link"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Team Tools/DiagnosticsHub/Collector/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Team Tools/DiagnosticsHub/Collector/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Team Tools/DiagnosticsHub/Collector/lld-link"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x64/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x64/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x64/lld-link"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/MSBuild/Current/Bin/amd64/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/MSBuild/Current/Bin/amd64/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/MSBuild/Current/Bin/amd64/lld-link"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/lld-link.com"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/lld-link.exe"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/lld-link"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/lld-link"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/Tools/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/Tools/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/Tools/lld-link"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lld-link.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lld-link.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/lld-link.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/lld-link.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/lld-link"
+      - "C:/Program Files/nodejs/lld-link.com"
+      - "C:/Program Files/nodejs/lld-link.exe"
+      - "C:/Program Files/nodejs/lld-link"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/lld-link.com"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/lld-link.exe"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/lld-link"
+      - "C:/Program Files/MongoDB/mongosh-1.10.1-win32-x64/bin/lld-link.com"
+      - "C:/Program Files/MongoDB/mongosh-1.10.1-win32-x64/bin/lld-link.exe"
+      - "C:/Program Files/MongoDB/mongosh-1.10.1-win32-x64/bin/lld-link"
+      - "E:/New folder (3)/restfulapi/src/lld-link.com"
+      - "E:/New folder (3)/restfulapi/src/lld-link.exe"
+      - "E:/New folder (3)/restfulapi/src/lld-link"
+      - "C:/Program Files/HP/HP One Agent/lld-link.com"
+      - "C:/Program Files/HP/HP One Agent/lld-link.exe"
+      - "C:/Program Files/HP/HP One Agent/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/Program Files/CMake/bin/lld-link.com"
+      - "C:/Program Files/CMake/bin/lld-link.exe"
+      - "C:/Program Files/CMake/bin/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "C:/Users/nikhi/AppData/Local/Programs/Python/Python311/Scripts/lld-link.com"
+      - "C:/Users/nikhi/AppData/Local/Programs/Python/Python311/Scripts/lld-link.exe"
+      - "C:/Users/nikhi/AppData/Local/Programs/Python/Python311/Scripts/lld-link"
+      - "C:/Users/nikhi/AppData/Local/Programs/Python/Python311/lld-link.com"
+      - "C:/Users/nikhi/AppData/Local/Programs/Python/Python311/lld-link.exe"
+      - "C:/Users/nikhi/AppData/Local/Programs/Python/Python311/lld-link"
+      - "C:/Users/nikhi/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/nikhi/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/nikhi/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Users/nikhi/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
+      - "C:/Users/nikhi/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
+      - "C:/Users/nikhi/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
+      - "C:/Users/nikhi/AppData/Roaming/npm/lld-link.com"
+      - "C:/Users/nikhi/AppData/Roaming/npm/lld-link.exe"
+      - "C:/Users/nikhi/AppData/Roaming/npm/lld-link"
+      - "C:/Program Files/MongoDB/Server/6.0/bin/lld-link.com"
+      - "C:/Program Files/MongoDB/Server/6.0/bin/lld-link.exe"
+      - "C:/Program Files/MongoDB/Server/6.0/bin/lld-link"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/lld-link"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/lld-link"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/lld-link"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/vcpkg/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/vcpkg/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/vcpkg/lld-link"
+      - "C:/Program Files/bin/lld-link.com"
+      - "C:/Program Files/bin/lld-link.exe"
+      - "C:/Program Files/bin/lld-link"
+      - "C:/Program Files/sbin/lld-link.com"
+      - "C:/Program Files/sbin/lld-link.exe"
+      - "C:/Program Files/sbin/lld-link"
+      - "C:/Program Files/lld-link.com"
+      - "C:/Program Files/lld-link.exe"
+      - "C:/Program Files/lld-link"
+      - "C:/Program Files (x86)/bin/lld-link.com"
+      - "C:/Program Files (x86)/bin/lld-link.exe"
+      - "C:/Program Files (x86)/bin/lld-link"
+      - "C:/Program Files (x86)/sbin/lld-link.com"
+      - "C:/Program Files (x86)/sbin/lld-link.exe"
+      - "C:/Program Files (x86)/sbin/lld-link"
+      - "C:/Program Files (x86)/lld-link.com"
+      - "C:/Program Files (x86)/lld-link.exe"
+      - "C:/Program Files (x86)/lld-link"
+      - "C:/Program Files/CMake/bin/lld-link.com"
+      - "C:/Program Files/CMake/bin/lld-link.exe"
+      - "C:/Program Files/CMake/bin/lld-link"
+      - "C:/Program Files/CMake/sbin/lld-link.com"
+      - "C:/Program Files/CMake/sbin/lld-link.exe"
+      - "C:/Program Files/CMake/sbin/lld-link"
+      - "C:/Program Files/CMake/lld-link.com"
+      - "C:/Program Files/CMake/lld-link.exe"
+      - "C:/Program Files/CMake/lld-link"
+      - "C:/Program Files (x86)/logpulse/bin/lld-link.com"
+      - "C:/Program Files (x86)/logpulse/bin/lld-link.exe"
+      - "C:/Program Files (x86)/logpulse/bin/lld-link"
+      - "C:/Program Files (x86)/logpulse/sbin/lld-link.com"
+      - "C:/Program Files (x86)/logpulse/sbin/lld-link.exe"
+      - "C:/Program Files (x86)/logpulse/sbin/lld-link"
+      - "C:/Program Files (x86)/logpulse/lld-link.com"
+      - "C:/Program Files (x86)/logpulse/lld-link.exe"
+      - "C:/Program Files (x86)/logpulse/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.50.35503\\bin\\HostX64\\x64"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\VC\\VCPackages"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\MSBuild\\Current\\bin\\Roslyn"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Team Tools\\DiagnosticsHub\\Collector"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x64"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\Tools\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\windows\\system32"
+        - "C:\\windows"
+        - "C:\\windows\\System32\\Wbem"
+        - "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Cloudflare\\Cloudflare WARP\\"
+        - "C:\\Program Files\\MongoDB\\mongosh-1.10.1-win32-x64\\bin"
+        - "E:\\New folder (3)\\restfulapi\\src"
+        - "C:\\Program Files\\HP\\HP One Agent"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\nikhi\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\nikhi\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\nikhi\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\nikhi\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\nikhi\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\MongoDB\\Server\\6.0\\bin"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\vcpkg"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/logpulse"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/logpulse"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "tests/CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/nikhi/OneDrive/Desktop/logpulse/build/CMakeFiles/CMakeScratch/TryCompile-zuqepe"
+      binary: "C:/Users/nikhi/OneDrive/Desktop/logpulse/build/CMakeFiles/CMakeScratch/TryCompile-zuqepe"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/nikhi/OneDrive/Desktop/logpulse/build/CMakeFiles/CMakeScratch/TryCompile-zuqepe'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_20f34\\fast
+        	"C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.50.35503\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_20f34.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_20f34.dir\\build
+        Building C object CMakeFiles/cmTC_20f34.dir/CMakeCCompilerABI.c.obj
+        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_20f34.dir\\CMakeCCompilerABI.c.obj.d --working-dir=C:\\Users\\nikhi\\OneDrive\\Desktop\\logpulse\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zuqepe --filter-prefix="Note: including file: " -- C:\\PROGRA~1\\MICROS~4\\18\\Insiders\\VC\\Tools\\MSVC\\1450~1.355\\bin\\Hostx64\\x64\\cl.exe @C:\\Users\\nikhi\\AppData\\Local\\Temp\\nm2C93.tmp
+        CMakeCCompilerABI.c
+        Linking C executable cmTC_20f34.exe
+        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1950 --intdir=CMakeFiles\\cmTC_20f34.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests -- C:\\PROGRA~1\\MICROS~4\\18\\Insiders\\VC\\Tools\\MSVC\\1450~1.355\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_20f34.dir\\objects1.rsp @C:\\Users\\nikhi\\AppData\\Local\\Temp\\nm2CE2.tmp
+        Visual Studio Incremental Link with embedded manifests
+        Create CMakeFiles\\cmTC_20f34.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_20f34.dir/embed.manifest
+        RC Pass 1:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_20f34.dir/manifest.res CMakeFiles\\cmTC_20f34.dir/manifest.rc
+        LINK Pass 1:
+        C:\\PROGRA~1\\MICROS~4\\18\\Insiders\\VC\\Tools\\MSVC\\1450~1.355\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_20f34.dir\\objects1.rsp /out:cmTC_20f34.exe /implib:cmTC_20f34.lib /pdb:C:\\Users\\nikhi\\OneDrive\\Desktop\\logpulse\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zuqepe\\cmTC_20f34.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_20f34.dir/intermediate.manifest CMakeFiles\\cmTC_20f34.dir/manifest.res
+        MT:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe /nologo /manifest CMakeFiles\\cmTC_20f34.dir/intermediate.manifest /out:CMakeFiles\\cmTC_20f34.dir/embed.manifest /notify_update
+        RC Pass 2:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_20f34.dir/manifest.res CMakeFiles\\cmTC_20f34.dir/manifest.rc
+        FINAL LINK:
+        C:\\PROGRA~1\\MICROS~4\\18\\Insiders\\VC\\Tools\\MSVC\\1450~1.355\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_20f34.dir\\objects1.rsp /out:cmTC_20f34.exe /implib:cmTC_20f34.lib /pdb:C:\\Users\\nikhi\\OneDrive\\Desktop\\logpulse\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zuqepe\\cmTC_20f34.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_20f34.dir/intermediate.manifest CMakeFiles\\cmTC_20f34.dir/manifest.res
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "tests/CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/PROGRA~1/MICROS~4/18/Insiders/VC/Tools/MSVC/1450~1.355/bin/Hostx64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "tests/CMakeLists.txt:3 (project)"
+    message: |
+      Running the C compiler's linker: "C:/PROGRA~1/MICROS~4/18/Insiders/VC/Tools/MSVC/1450~1.355/bin/Hostx64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.50.35503.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+...

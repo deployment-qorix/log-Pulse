@@ -1,0 +1,11 @@
+aggregator_test 2 0.0212876
+parser_test 2 0.0256217
+spacesaving_test 1 0.0445528
+test_parser 2 0.0155254
+test_aggregator 2 0.0172501
+test_spacesaving 2 0.0207771
+test_bounded_queue 1 0.0360064
+test_worker_pool 2 0.0499467
+test_checkpoint 2 0.0220888
+test_sliding_window 2 0.016599
+---

@@ -1,0 +1,18 @@
+Starting LogPulse; file=..\sample_logs\sample.log follow=true workers=12 qcap=65536 http_enable=true http_port=8080
+STEP: constructing Aggregator
+Aggregator ctor (safe): window_seconds=300 ip_shards_req=16 endpoint_shards_req=8
+Aggregator ctor completed: ip_shards=16, endpoint_shards=8, window_s=300
+OK: Aggregator constructed
+STEP: starting producer thread
+OK: producer thread started
+STEP: constructing WorkerPool
+OK: WorkerPool constructed
+STEP: creating HttpServer (cache warm skipped)
+HttpServer started on port 8080
+OK: HttpServer started
+STEP: running CLI (interactive)
+OK: CLI exited
+Shutdown: setting terminate flag
+HttpServer stopped
+SIGINT received — shutting down.
+LogPulse shutting down normally.

@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/nikhi/OneDrive/Desktop/logpulse/build/cmake_install.cmake",
+		"C:/Users/nikhi/OneDrive/Desktop/logpulse/build/tests/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

@@ -1,0 +1,125 @@
+Start testing: Sep 24 13:08 India Standard Time
+----------------------------------------------------------
+1/7 Testing: test_parser
+1/7 Test: test_parser
+Command: "C:/Users/nikhi/OneDrive/Desktop/logpulse/build/tests/test_parser.exe"
+Directory: C:/Users/nikhi/OneDrive/Desktop/logpulse/build/tests
+"test_parser" start time: Sep 24 13:08 India Standard Time
+Output:
+----------------------------------------------------------
+test_parser: OK
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"test_parser" end time: Sep 24 13:08 India Standard Time
+"test_parser" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/7 Testing: test_aggregator
+2/7 Test: test_aggregator
+Command: "C:/Users/nikhi/OneDrive/Desktop/logpulse/build/tests/test_aggregator.exe"
+Directory: C:/Users/nikhi/OneDrive/Desktop/logpulse/build/tests
+"test_aggregator" start time: Sep 24 13:08 India Standard Time
+Output:
+----------------------------------------------------------
+Aggregator ctor (safe): window_seconds=5 ip_shards_req=4 endpoint_shards_req=2
+Aggregator ctor completed: ip_shards=4, endpoint_shards=2, window_s=5
+test_aggregator: OK
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"test_aggregator" end time: Sep 24 13:08 India Standard Time
+"test_aggregator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/7 Testing: test_spacesaving
+3/7 Test: test_spacesaving
+Command: "C:/Users/nikhi/OneDrive/Desktop/logpulse/build/tests/test_spacesaving.exe"
+Directory: C:/Users/nikhi/OneDrive/Desktop/logpulse/build/tests
+"test_spacesaving" start time: Sep 24 13:08 India Standard Time
+Output:
+----------------------------------------------------------
+test_spacesaving: OK
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"test_spacesaving" end time: Sep 24 13:08 India Standard Time
+"test_spacesaving" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/7 Testing: test_bounded_queue
+4/7 Test: test_bounded_queue
+Command: "C:/Users/nikhi/OneDrive/Desktop/logpulse/build/tests/test_bounded_queue.exe"
+Directory: C:/Users/nikhi/OneDrive/Desktop/logpulse/build/tests
+"test_bounded_queue" start time: Sep 24 13:08 India Standard Time
+Output:
+----------------------------------------------------------
+test_bounded_queue: OK
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"test_bounded_queue" end time: Sep 24 13:08 India Standard Time
+"test_bounded_queue" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/7 Testing: test_worker_pool
+5/7 Test: test_worker_pool
+Command: "C:/Users/nikhi/OneDrive/Desktop/logpulse/build/tests/test_worker_pool.exe"
+Directory: C:/Users/nikhi/OneDrive/Desktop/logpulse/build/tests
+"test_worker_pool" start time: Sep 24 13:08 India Standard Time
+Output:
+----------------------------------------------------------
+Aggregator ctor (safe): window_seconds=10 ip_shards_req=4 endpoint_shards_req=2
+Aggregator ctor completed: ip_shards=4, endpoint_shards=2, window_s=10
+test_worker_pool: OK
+<end of output>
+Test time =   0.10 sec
+----------------------------------------------------------
+Test Passed.
+"test_worker_pool" end time: Sep 24 13:08 India Standard Time
+"test_worker_pool" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/7 Testing: test_checkpoint
+6/7 Test: test_checkpoint
+Command: "C:/Users/nikhi/OneDrive/Desktop/logpulse/build/tests/test_checkpoint.exe"
+Directory: C:/Users/nikhi/OneDrive/Desktop/logpulse/build/tests
+"test_checkpoint" start time: Sep 24 13:08 India Standard Time
+Output:
+----------------------------------------------------------
+Aggregator ctor (safe): window_seconds=10 ip_shards_req=4 endpoint_shards_req=2
+Aggregator ctor completed: ip_shards=4, endpoint_shards=2, window_s=10
+Aggregator ctor (safe): window_seconds=10 ip_shards_req=4 endpoint_shards_req=2
+Aggregator ctor completed: ip_shards=4, endpoint_shards=2, window_s=10
+test_checkpoint: OK
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"test_checkpoint" end time: Sep 24 13:08 India Standard Time
+"test_checkpoint" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/7 Testing: test_sliding_window
+7/7 Test: test_sliding_window
+Command: "C:/Users/nikhi/OneDrive/Desktop/logpulse/build/tests/test_sliding_window.exe"
+Directory: C:/Users/nikhi/OneDrive/Desktop/logpulse/build/tests
+"test_sliding_window" start time: Sep 24 13:08 India Standard Time
+Output:
+----------------------------------------------------------
+Aggregator ctor (safe): window_seconds=3 ip_shards_req=4 endpoint_shards_req=2
+Aggregator ctor completed: ip_shards=4, endpoint_shards=2, window_s=3
+test_sliding_window: OK
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"test_sliding_window" end time: Sep 24 13:08 India Standard Time
+"test_sliding_window" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Sep 24 13:08 India Standard Time
